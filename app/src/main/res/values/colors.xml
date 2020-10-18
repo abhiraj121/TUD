@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ED2929</color>
+    <color name="colorPrimaryDark">#D3D3D3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="background">#f4f4f4</color>
+    <color name="buttonClicked">#A97777</color>
+    <color name="buttonColor">#EF6F6F</color>
+
+    <color name="spinnerBackground">#E6E6E6</color>
+    <color name="spinnerTextColor">#FBB6EC</color>
+
+    <color name="white">#ffffff</color>
+    <color name="grey">#E9EAEE</color>
+    <color name="yellow">#F8BA0F</color>
+    <color name="pink">#DC9797</color>
+    <color name="goodgrey">#535353</color>
+    <color name="blue">#293859</color>
+    <color name="lightgrey">#EEEEEE</color>
+</resources>

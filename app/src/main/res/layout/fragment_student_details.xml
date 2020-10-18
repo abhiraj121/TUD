@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:id="@+id/login_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:paddingStart="50dp"
+        android:paddingTop="16dp"
+        android:paddingEnd="50dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="60dp"
+            android:fontFamily="@font/aldrich"
+            android:text="Select your branch, batch, and section"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/et_style">
+
+            <org.angmarch.views.NiceSpinner
+                android:id="@+id/branch"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:background="@drawable/et_style"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                app:arrowTint="@color/buttonColor"
+                app:backgroundSelector="@drawable/background_selector"
+                app:textTint="#2E2222" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/et_style">
+
+            <org.angmarch.views.NiceSpinner
+                android:id="@+id/batch"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:background="@drawable/et_style"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                app:arrowTint="@color/buttonColor"
+                app:backgroundSelector="@drawable/background_selector"
+                app:textTint="#2E2222" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/et_style">
+
+            <org.angmarch.views.NiceSpinner
+                android:id="@+id/section"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:background="@drawable/et_style"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                app:arrowTint="@color/buttonColor"
+                app:backgroundSelector="@drawable/background_selector"
+                app:textTint="#2E2222" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/makeAccount"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:backgroundTint="@color/buttonColor"
+                android:text="@string/create_account"
+                android:textColor="@android:color/white"
+                app:cornerRadius="10dp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

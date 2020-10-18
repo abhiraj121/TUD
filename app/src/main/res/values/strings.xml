@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">TUD</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="termsAndCond"><![CDATA[Please read the T&C\'s before continuing]]></string>
+    <string name="absent">Absent</string>
+    <string name="present">Present</string>
+    <string name="title_activity_sign_in">WelcomeActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="create_new_account">Create new Account</string>
+    <string name="log_in">Log in</string>
+    <string name="tud_logo">TUD Logo</string>
+    <string name="cancel">cancel</string>
+    <string name="next">next</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="google">google</string>
+    <string name="facebook">facebook</string>
+    <string name="profile">Profile</string>
+    <string name="back">back</string>
+    <string name="create_account">create account</string>
+</resources>

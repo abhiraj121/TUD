@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:id="@+id/login_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:paddingStart="50dp"
+        android:paddingTop="16dp"
+        android:paddingEnd="50dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="40dp"
+            android:fontFamily="@font/aldrich"
+            android:text="You are a ..."
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textSize="25sp" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/selectTeacher"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center"
+            android:layout_margin="7dp"
+            android:background="@drawable/profile_image_bg"
+            android:padding="3dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/teacher_account_type" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/rubik"
+            android:gravity="center"
+            android:text="Teacher"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textSize="17sp" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/selectStudent"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center"
+            android:layout_margin="7dp"
+            android:background="@drawable/profile_image_bg"
+            android:padding="17dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/student_account_type" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="@font/rubik"
+            android:gravity="center"
+            android:text="Student"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textSize="17sp" />
+
+
+    </LinearLayout>
+</LinearLayout>
